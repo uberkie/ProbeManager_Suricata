@@ -7,7 +7,7 @@ arg=$1
 destfull=$2
 
 if [[ "$SURICATA_VERSION" == "" ]]; then
-    SURICATA_VERSION="4.0.4"
+    SURICATA_VERSION="5.0.4"
 fi
 config=""
 rules=""
